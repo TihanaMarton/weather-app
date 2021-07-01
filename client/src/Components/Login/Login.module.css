@@ -1,0 +1,38 @@
+.formLabel {
+    font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
+
+.labelLetters{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.6rem;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+
+.smallLetters {
+font-size: 1rem;
+font-family: 'Nunito', sans-serif;
+}
+
+.register {
+  font-size: 1rem;
+  color: rgb(74, 186, 149);
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  padding-left: 4px;
+}
+  .register:hover {
+color: rgb(211, 195, 16);
+ text-decoration: none;
+  }
+
+.errorMsg {
+  font-size: 0.9rem;
+  color: red;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+ font-family: 'Nunito', sans-serif;
+}

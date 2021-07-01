@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(80deg, #15cbeb 30%, #E1E0E0 108%);
+  background-size: cover;
+  
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  
+  color: #313131;
+  font-size: 2rem;
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  position:relative;
+  color: #FFF;
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 2.4px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box{
+  position: relative;
+  display: inline-block;
+  margin: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 10px 20px;
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 6.25rem;
+  font-weight: 700;
+  text-shadow: 3px 2.5px rgba(50, 50, 70, 0.5);
+}
+
+.icon {
+  font-weight: 900;
+}
+
+
+.msg {
+  color: rgb(233, 91, 15);
+  margin-bottom: 4px;
+font-size: 2rem;
+}
+
+.color-white {
+color: #FFF;
+margin-left: 25px
+}
+
+.hour-style {
+  color: #FFF;
+padding: 30px 12px!important;
+ 
+}
+
+.icon-style {
+  color: #FFF;
+  padding: 10px 30px!important;
+font-weight: 300;
+font-size: 3.8rem;
+}
+
+.temp-style {
+  color:#FFF;
+  padding: 30px 30px!important;
+}
+
+.delete-btn {
+  color: #FFF;
+  border: none;
+  box-sizing: border-box;
+  overflow: none;
+
+}
+
+.link {
+  color:#FFF;
+  text-decoration: none;
+}
+.link:hover {
+  color:#FFF;
+  text-decoration: none;
+}

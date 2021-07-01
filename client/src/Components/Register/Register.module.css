@@ -1,0 +1,20 @@
+.errorMsg {
+  font-size: 0.9rem;
+  color: red;
+}
+
+.successMsg {
+  font-size: 1rem;
+  color:seagreen
+}
+
+.logIn {
+ font-size: 1.6rem;
+ color: seagreen;
+ text-decoration: none;
+}
+
+  .logIn:hover {
+color: rgb(211, 195, 16);
+ text-decoration: none;
+  }
