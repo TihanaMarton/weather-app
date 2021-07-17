@@ -5,7 +5,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Weather from './Components/Weather/Weather';
 import FiveDaysForecast from './Components/Weather/FiveDaysForecast';
-
+import HourlyForecast from './Components/Weather/HourlyForeacast';
 
 function App() {
 
@@ -28,6 +28,7 @@ function App() {
         <Route exact path='/register' component={Register}></Route>
         <PrivateRoute exact path='/weather' component={Weather} auth={isAuthenticated} ></PrivateRoute>
         <PrivateRoute exact path='/weather/:name' component={FiveDaysForecast} auth={isAuthenticated} ></PrivateRoute>
+ <PrivateRoute exact path='/weather/:name/:day' component={HourlyForecast} auth={isAuthenticated} ></PrivateRoute>
       </Switch>
     </Router>
   )
