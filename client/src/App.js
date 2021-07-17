@@ -28,7 +28,7 @@ function App() {
         <Route exact path='/register' component={Register}></Route>
         <PrivateRoute exact path='/weather' component={Weather} auth={isAuthenticated} ></PrivateRoute>
         <PrivateRoute exact path='/weather/:name' component={FiveDaysForecast} auth={isAuthenticated} ></PrivateRoute>
- <PrivateRoute exact path='/weather/:name/:day' component={HourlyForecast} auth={isAuthenticated} ></PrivateRoute>
+        <PrivateRoute exact path='/weather/:name/:day' component={HourlyForecast} auth={isAuthenticated} ></PrivateRoute>
       </Switch>
     </Router>
   )
